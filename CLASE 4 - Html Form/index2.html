@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento Basico de Form HTML</title>
+</head>
+<body>
+    <form action=".form-result.php" method="POST" target="_self"> <!--Indica el comienzo del formulario-->
+        <!--Input de texto-->
+        <label for="nombre">Nombre:</label><input type="text" name="nombre"><br><br>
+        <label for="apellido">Apellido:</label><input type="text" name="apellido"><br><br>
+        <!--Input numérico-->
+        <label for="edad">Edad:</label><input type="number" name="Edad"><br><br>
+        <!--Input email-->
+        <label for="email">Email:</label><input type="email" name="email">
+        <label for="email">Password:</label><input type="email" name="password" placeholder="Introduce una clave"><br><br>
+        <!--Checkbox-->
+        <label for="checkbox">Selecciona que tipo de vehículos tienes:</label><br><br>
+        <input type="checkbox" id="vehiculo1" name="vehiculo1" value="Bicicleta">
+        <label for="checkbox">Bicicleta</label>
+        <input type="checkbox" id="vehiculo2" name="vehiculo2" value="Motocicleta">
+        <label for="checkbox">Motocicleta</label>
+        <input type="checkbox" id="vehiculo3" name="vehiculo3" value="auto">
+        <label for="checkbox">Auto</label><br><br>
+        <!--Select-->
+        <label for="select">¿Jugamos? Elige una opción</label>
+        <select name="juego">
+            <option value="piedra">Piedra</option>
+            <option value="papel">Papel</option>
+            <option value="tijera">Tijera</option>
+            <option value="ninguna">Ninguna</option>
+        </select><br><br>
+        <!--Radiobutton-->
+        <label for="sexo">¿Que sexo eres?</label>
+        <input type="radio" id="hombre" name="sexo" value="hombre">
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="mujer" name="sexo" value="mujer">
+        <label for="mujer">Mujer</label>
+        <input type="radio" id="otro" name="sexo" value="otro">
+        <label for="otro">Otro</label><br><br>
+        <input type="submit" value="Submit">
+    </form><!--Indica el fin del formulario-->
+
+    <form action=".form-result.php" method="POST" target="_self"> <!--Indica el comienzo del formulario-->
+        <ul>
+            <li>
+                <!--Input de texto-->
+                <label for="nombre">Nombre:</label><input type="text" name="nombre">
+            </li>
+            <li>
+                <label for="apellido">Apellido:</label><input type="text" name="apellido">
+            </li>
+            <li>
+                <!--Input numérico-->
+                <label for="edad">Edad:</label><input type="number" name="Edad">
+            </li>
+            <li>
+                <!--Input email-->
+                <label for="email">Email:</label><input type="email" name="email">
+                <label for="email">Password:</label><input type="email" name="password" placeholder="Introduce una clave">
+            </li>
+            <li>
+                <!--Checkbox-->
+                <label for="checkbox">Selecciona que tipo de vehículos tienes:</label>
+                <input type="checkbox" id="vehiculo1" name="vehiculo1" value="Bicicleta">
+                <label for="checkbox">Bicicleta</label>
+                <input type="checkbox" id="vehiculo2" name="vehiculo2" value="Motocicleta">
+                <label for="checkbox">Motocicleta</label>
+                <input type="checkbox" id="vehiculo3" name="vehiculo3" value="auto">
+                <label for="checkbox">Auto</label>
+            </li>
+            <li>
+                <!--Select-->
+                <label for="select">¿Jugamos? Elige una opción</label>
+                <select name="juego">
+                    <option value="piedra">Piedra</option>
+                    <option value="papel">Papel</option>
+                    <option value="tijera">Tijera</option>
+                    <option value="ninguna">Ninguna</option>
+                </select>
+            </li>
+            <li>
+                <!--Radiobutton-->
+                <label for="sexo">¿Que sexo eres?</label>
+                <input type="radio" id="hombre" name="sexo" value="hombre">
+                <label for="hombre">Hombre</label>
+                <input type="radio" id="mujer" name="sexo" value="mujer">
+                <label for="mujer">Mujer</label>
+                <input type="radio" id="otro" name="sexo" value="otro">
+                <label for="otro">Otro</label>
+            </li>
+        </ul>
+        <input type="submit" value="Submit">
+    </form><!--Indica el fin del formulario-->
+</body>
+</html>
