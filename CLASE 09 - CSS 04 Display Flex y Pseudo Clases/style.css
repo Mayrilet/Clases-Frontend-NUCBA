@@ -1,0 +1,210 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffeedd;
+    font-family: 'Playfair Display', serif;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+h1 { 
+    font-size: 50px;
+}
+
+/*Pseudoclase*/
+h1:hover {
+    color:red;
+    font-size: 40px;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    font-size: 40px;
+    text-decoration: underline black;
+    color: #657b8b;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    padding: 10px;
+    margin-bottom: 3px;
+}
+
+.image {
+    width: 198px;
+    height: 185px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.list li {
+    padding: 10px;
+    margin-bottom: 3px;
+}
+
+/*header*/
+header {
+    width: 100%;
+    height: 300px;
+    border-bottom: 1px solid teal;
+}
+
+header h1 {
+    padding: 10px;
+}
+
+header h2 {
+    padding: 10px;
+}
+
+header ul {
+    width: 300px;
+    display: inline-block;
+}
+
+header .image {
+    float: right;
+}
+
+/*Nav*/
+nav {
+    width: auto;
+    height: 250px;
+    padding: 16px;
+    border-bottom: 1px solid teal;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 16px;
+}
+
+nav ul li {
+    color: #008080;
+    margin-right: 16px;
+}
+
+/*Pseudo clases posición*/
+nav ul li:first-child {
+    border-bottom: 1px solid blueviolet;
+}
+
+nav ul li:last-child {
+    margin-right: 0px;
+}
+
+/* Pseudo clases por estado */
+
+/* link sin visitar */
+nav ul li a:link {
+    color: #ece03a;
+}
+
+/* link visitado */
+nav ul li a:visited {
+    color: green;
+}
+
+/* mouse over link */
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* link seleccionado */
+nav ul li a:active {
+    color: red;
+}
+
+nav .image {
+    margin: 0 auto;
+}
+
+/*section*/
+section {
+    border-bottom: 1px solid teal;
+}
+
+section h2 {
+    padding: 10px;
+}
+
+/*div*/
+.parImpar {
+    padding: 16px;
+}
+
+.parImpar ul li {
+    margin-bottom: 10px;
+}
+
+.parImpar ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.parImpar ul li:nth-child(odd) {
+    background-color: teal;
+}
+
+.parImpar ul li:nth-child(even) {
+    background-color: #a0365e;
+}
+
+/*footer*/
+footer{
+    border-top: 1px solid teal;
+    border-bottom: 1px solid teal;
+}
+
+footer h2 {
+    padding: 10px;
+}
+
+footer ul li a {
+    color: teal;
+    position: relative;
+    margin: 24px;
+}
+
+/* Pseudo Elemento Before */
+
+footer ul li a::before {
+    content: "";
+    display: inline-block;
+    background: url("https://3.bp.blogspot.com/-LHdLdAlA1E0/UyayLmE1XfI/AAAAAAAAETA/Jr90-IZUUvM/s1600/icon.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -25px;
+    top:1px
+}
+
+/* Pseudo Elemento After */
+
+footer ul li a::after{
+    content: 'Chao';
+    width: 10px;
+    height: 10px;
+    background: rgb(187, 233, 114);
+    padding: 10px;
+}
