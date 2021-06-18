@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    background-color: #e63232;
+    animation-name: div-animation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-delay: 2s;
+    /*animation: nombre de animación - duración - tipo de animación - delay - nro. interacciones - dirección*/
+    /*animation: div-animation 4s ease-in-out 2s infinite alternate*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rebeccapurple;
+    border-radius: 50%;
+}
+section {
+    width: 100%;
+    height: 400px;
+    animation: animation2 4s ease-in-out 2s infinite alternate;
+    border: 1px solid black
+}
+
+@keyframes div-animation {
+    from {
+        background-color: salmon;
+    }
+
+    50% {
+        background-color: #ecd088;
+    }
+
+    to {
+        background-color: skyblue;
+    }
+}
+
+@keyframes animation2 {
+    from {
+        background-color: #f3aed8;
+    }
+
+    50% {
+        background-color: #ebf597;
+        border: 1px solid aqua;
+    }
+
+    to {
+        background-color: #87ebad;
+    }
+}
