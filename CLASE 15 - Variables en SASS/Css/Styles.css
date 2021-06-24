@@ -1,0 +1,24 @@
+header {
+  background-color: #ffe383;
+  width: 100%;
+  height: 5rem;
+}
+header h1 {
+  color: #ff6666;
+  text-align: center;
+  font-family: "Intro Rust G Base 2 Line";
+  font-size: 3rem;
+}
+
+section {
+  background-color: #ffe383;
+  width: 100%;
+  height: 12rem;
+}
+section h2 {
+  color: #c9284f;
+  font-size: 3rem;
+  font-family: "Intro Rust G Base 2 Line";
+}
+
+/*# sourceMappingURL=Styles.css.map */

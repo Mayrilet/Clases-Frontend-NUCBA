@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../sass/Styles.scss","../assest/Variables/_colors.scss","../assest/Variables/_mixins.scss"],"names":[],"mappings":"AAGA;EACO,kBCJW;ECCd,OFIuB;EEHvB,QFG6B;;AAE7B;EACI,OCPI;EDQJ;EACA;EACA;;;AAIR;EACI,kBChBc;ECCd,OFgBoB;EEfpB,QFe0B;;AAE1B;EACI,OCjBK;EDkBL;EACA","file":"Styles.css"}

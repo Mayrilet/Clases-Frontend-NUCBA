@@ -1,0 +1,25 @@
+@import '../assest/Variables/colors';
+@import '../assest/Variables/mixins';
+
+header { 
+       background-color: $main-background;
+       @include imageSize (100%, 5rem);
+      
+    h1 {
+        color: $main-text;
+        text-align: center;
+        font-family: 'Intro Rust G Base 2 Line';
+        font-size: 3rem;
+    }
+}
+
+section {
+    background-color: $main-background;
+    @include imageSize (100%, 12rem);
+
+    h2 {
+        color: $main-text2;
+        font-size: 3rem;
+        font-family: 'Intro Rust G Base 2 Line';
+    }
+}
