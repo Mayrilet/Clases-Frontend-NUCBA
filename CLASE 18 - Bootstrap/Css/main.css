@@ -1,0 +1,15 @@
+.container {
+    border: solid 1px rebeccapurple;
+    margin-top: 1rem;
+}
+
+.row div {
+    border: solid 1px rebeccapurple;
+    background-color: #e6cccc;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
